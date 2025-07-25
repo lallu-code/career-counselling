@@ -1,0 +1,142 @@
+{
+  "Technology": [
+    {
+      "name": "Software Engineer",
+      "level": "Graduate",
+      "degrees": "B.Tech, BE, BCA, MCA",
+      "description": "Designs, develops, and maintains software applications. The backbone of the digital world.",
+      "tags": ["Technology", "Building", "Problem-Solving", "Logical", "Python"],
+      "salary_inr": "8 - 40 LPA",
+      "future_prospects": "Evergreen field with constant demand. Specializations in AI, Cybersecurity, and Cloud are booming.",
+      "opportunities": ["Tech giants (Google, Microsoft, Amazon)", "Tech startups of all sizes", "Financial services (FinTech, banking)", "E-commerce and retail companies"],
+      "skills": {"hard_skills": ["Programming (Python, Java, C++)", "Data Structures & Algorithms", "Databases (SQL)", "Git Version Control"], "soft_skills": ["Problem-Solving", "Teamwork", "Attention to Detail"]},
+      "roadmap": ["Bachelor's in Computer Science", "Build a project portfolio", "Internships", "Specialize in an area like backend, frontend, or mobile."],
+      "resources": {
+        "online_course": {"name": "CS50's Introduction to Computer Science (Harvard)", "url": "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x"},
+        "youtube_channel": {"name": "freeCodeCamp.org", "url": "https://www.youtube.com/c/freecodecamp"},
+        "must_read_book": {"name": "Clean Code by Robert C. Martin", "url": "https://www.oreilly.com/library/view/clean-code/9780136083238/"}
+      }
+    },
+    {
+      "name": "Data Scientist",
+      "level": "Postgraduate",
+      "degrees": "MS, PhD",
+      "description": "Uses data to answer complex questions and build predictive models. A mix of statistician, programmer, and business strategist.",
+      "tags": ["Technology", "Math", "Analytical", "Deep-Thinking", "Machine Learning"],
+      "salary_inr": "12 - 50+ LPA",
+      "future_prospects": "Critical role in every data-driven company. High demand for specialists in Natural Language Processing (NLP) and Computer Vision.",
+      "opportunities": ["Data science consulting firms", "E-commerce for recommendation engines", "Healthcare for predictive diagnostics", "Finance for fraud detection"],
+      "skills": {"hard_skills": ["Statistics & Probability", "Python/R", "Machine Learning Frameworks", "Data Visualization", "Big Data Tech (Spark)"], "soft_skills": ["Curiosity", "Storytelling with Data", "Business Acumen"]},
+      "roadmap": ["Bachelor's in a quantitative field", "Master's (MS) or Ph.D. in Data Science/Statistics is common", "Develop a portfolio of data analysis projects", "Start as a Data Analyst and grow."],
+      "resources": {
+        "online_course": {"name": "Machine Learning by Andrew Ng (Coursera)", "url": "https://www.coursera.org/learn/machine-learning"},
+        "youtube_channel": {"name": "StatQuest with Josh Starmer", "url": "https://www.youtube.com/c/statquest"},
+        "must_read_book": {"name": "Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow", "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/"}
+      }
+    }
+  ],
+  "Business & Finance": [
+    {
+      "name": "Investment Banker",
+      "level": "Postgraduate",
+      "degrees": "BBA, MBA",
+      "description": "Helps companies and governments raise capital by issuing stocks and bonds, and provides advice on mergers and acquisitions (M&A).",
+      "tags": ["Finance", "High-Pressure", "Analytical", "Decision-Making", "Business"],
+      "salary_inr": "25 - 1 Crore+ LPA",
+      "future_prospects": "Extremely high-paying field. Path to roles in private equity, hedge funds, or senior executive positions in corporations (CFO).",
+      "opportunities": ["Bulge Bracket Investment Banks (Goldman Sachs, J.P. Morgan)", "Private Equity Firms", "Venture Capital Firms", "Corporate Development divisions"],
+      "skills": {"hard_skills": ["Financial Modeling", "Valuation Techniques", "Excel & PowerPoint", "Market Analysis"], "soft_skills": ["Strong Work Ethic", "Networking", "Negotiation"]},
+      "roadmap": ["Degree from a top university in Finance/Economics", "An MBA from a top business school is almost essential", "Grueling interview process", "Start as an Analyst and work long hours."],
+      "resources": {
+        "online_course": {"name": "Breaking Into Wall Street", "url": "https://breakingintowallstreet.com/"},
+        "must_read_book": {"name": "Barbarians at the Gate by Bryan Burrough", "url": "https://www.goodreads.com/book/show/78118.Barbarians_at_the_Gate"}
+      }
+    },
+    {
+      "name": "Management Consultant",
+      "level": "Postgraduate",
+      "degrees": "BBA, MBA",
+      "description": "Management Consultants help organizations solve problems and improve performance. They analyze businesses and create solutions to help them achieve their goals.",
+      "tags": ["Business", "Finance", "Problem-Solving", "Analytical", "Strategic", "Communicating", "High-Pressure", "Teamwork"],
+      "salary_inr": "20 - 70+ LPA",
+      "future_prospects": "A launchpad for high-level corporate careers. Many consultants become senior executives, join private equity firms, or start their own companies.",
+      "opportunities": ["Top-tier consulting firms (McKinsey, BCG, Bain)", "Big Four accounting firms (Deloitte, PwC, EY, KPMG)", "Boutique specialist consultancies"],
+      "skills": {"hard_skills": ["Financial Modeling", "Data Analysis & Visualization", "Slide Deck Creation (PowerPoint)", "Market Sizing", "Project Management"], "soft_skills": ["Structured Problem-Solving", "Executive Communication", "Adaptability"]},
+      "roadmap": ["Excel at a top undergraduate university (e.g., BBA in Business/Economics)", "Obtain an MBA from a top-tier business school", "Pass rigorous case interviews", "Start as an Analyst or Associate."],
+      "resources": {
+        "online_course": {"name": "Case Interview Prep (Management Consulted)", "url": "https://managementconsulted.com/"},
+        "must_read_book": {"name": "Case in Point by Marc Cosentino", "url": "https://www.caseinpoint.com/"}
+      }
+    }
+  ],
+  "Healthcare": [
+    {
+      "name": "Medical Doctor (Physician)",
+      "level": "Postgraduate",
+      "degrees": "MBBS, MD, MS",
+      "description": "Diagnoses and treats illnesses and injuries, provides health advice, and maintains patient health. Requires extensive education and training.",
+      "tags": ["Science", "Helping", "High-Pressure", "Deep-Thinking", "Empathy"],
+      "salary_inr": "10 - 60+ LPA",
+      "future_prospects": "Core profession with perpetual demand. Specializations and super-specializations (e.g., neurosurgery, cardiology) offer high growth.",
+      "opportunities": ["Hospitals (Public and Private)", "Private Practice / Own Clinic", "Medical Research Institutions", "Public Health Organizations (like WHO)"],
+      "skills": {"hard_skills": ["Medical Knowledge", "Diagnostic Skills", "Surgical Skills (if applicable)", "Patient Charting"], "soft_skills": ["Empathy", "Communication", "Stress Management"]},
+      "roadmap": ["High school with science focus", "Bachelor's degree (MBBS in India, Pre-Med in US)", "Postgraduate specialization (MD/MS)", "Residency and fellowship training."],
+      "resources": {
+        "must_read_book": {"name": "Being Mortal by Atul Gawande", "url": "https://www.goodreads.com/book/show/20696006-being-mortal"},
+        "professional_body": {"name": "World Medical Association", "url": "https://www.wma.net/"}
+      }
+    }
+  ],
+  "Arts & Design": [
+    {
+      "name": "Architect",
+      "level": "Graduate",
+      "degrees": "B.Arch",
+      "description": "Architects plan and design buildings and other structures. They combine art and science to create functional, safe, and aesthetically pleasing spaces.",
+      "tags": ["Creative", "Design", "Building", "Problem-Solving", "Math", "Visualisation", "Hands-On"],
+      "salary_inr": "6 - 30 LPA",
+      "future_prospects": "Ability to start one's own firm. Growing demand for sustainable and 'green' architecture. Roles in urban planning and real estate development.",
+      "opportunities": ["Architectural firms", "Real estate developers", "Government planning departments", "Large construction companies"],
+      "skills": {"hard_skills": ["AutoCAD, Revit, SketchUp", "Technical Drawing & Sketching", "Spatial Reasoning", "Knowledge of Building Codes", "Project Management"], "soft_skills": ["Creativity", "Attention to Detail", "Client Communication", "Problem-Solving"]},
+      "roadmap": ["Complete a Bachelor of Architecture (B.Arch) degree (5 years)", "Gain practical experience through internships", "Pass a professional licensure exam (e.g., from the Council of Architecture in India)", "Work under a licensed architect before starting a firm."],
+      "resources": {
+        "youtube_channel": {"name": "30X40 Design Workshop", "url": "https://www.youtube.com/c/30x40"},
+        "professional_body": {"name": "The American Institute of Architects (AIA)", "url": "https://www.aia.org/"},
+        "must_read_book": {"name": "The Architecture of Happiness by Alain de Botton", "url": "https://www.goodreads.com/book/show/24876.The_Architecture_of_Happiness"}
+      }
+    }
+  ],
+  "Science & Research": [
+    {
+      "name": "University Professor",
+      "level": "Postgraduate",
+      "degrees": "PhD",
+      "description": "An academic who teaches and conducts original research at a university. They are experts in their field, publish scholarly articles, and mentor students.",
+      "tags": ["Humanities", "Reading", "Writing", "Researching", "Deep-Thinking", "Patience", "Independent", "Helping"],
+      "salary_inr": "8 - 25 LPA",
+      "future_prospects": "Path to achieving tenure, becoming a department head, and making a lasting impact on a field of study. Highly autonomous work.",
+      "opportunities": ["Public and private universities", "Research think tanks", "Corporate research divisions", "Government agencies"],
+      "skills": {"hard_skills": ["Deep Subject Matter Expertise", "Academic Research & Writing", "Statistical Analysis", "Grant Writing", "Public Speaking"], "soft_skills": ["Critical Thinking", "Patience", "Mentorship", "Communication", "Self-Motivation"]},
+      "roadmap": ["Complete a Bachelor's and Master's degree in your chosen field.", "Earn a Ph.D., which involves years of intensive research and writing a dissertation.", "Publish research papers in academic journals and attend conferences.", "Secure a tenure-track position as an Assistant Professor and work towards tenure."],
+      "resources": {
+        "must_read_book": {"name": "The Structure of Scientific Revolutions by Thomas S. Kuhn", "url": "https://www.goodreads.com/book/show/61539.The_Structure_of_Scientific_Revolutions"},
+        "professional_body": {"name": "American Association of University Professors (AAUP)", "url": "https://www.aaup.org/"}
+      }
+    },
+    {
+      "name": "Research Scientist (Industry)",
+      "level": "Postgraduate",
+      "degrees": "MS, PhD",
+      "description": "Conducts research and experiments in a corporate setting to develop new products or technologies. They work in labs for pharmaceutical, tech, or manufacturing companies.",
+      "tags": ["Science", "Researching", "Analytical", "Problem-Solving", "Building", "Patience", "Deep-Thinking"],
+      "salary_inr": "10 - 45 LPA",
+      "future_prospects": "Leads to roles like Principal Scientist or R&D Manager. The work directly impacts commercial products, offering a different path than academia.",
+      "opportunities": ["Pharmaceutical companies (e.g., Pfizer, Novartis)", "Tech company R&D labs (e.g., Google Research, MSR)", "Biotechnology firms", "Consumer goods companies (e.g., P&G)"],
+      "skills": {"hard_skills": ["Experimental Design", "Laboratory Techniques", "Data Analysis", "Scientific Writing", "Patent Application Process"], "soft_skills": ["Innovation", "Problem-Solving", "Perseverance", "Collaboration"]},
+      "roadmap": ["Bachelor's degree in a relevant science (e.g., Chemistry, Biology, Physics)", "Obtain a Master's (MS) or Ph.D. for senior roles", "Gain specialized lab experience", "Apply for scientist roles in corporate R&D departments."],
+      "resources": {
+        "professional_body": {"name": "The Scientific Research Honor Society (Sigma Xi)", "url": "https://www.sigmaxi.org/"}
+      }
+    }
+  ]
+}
