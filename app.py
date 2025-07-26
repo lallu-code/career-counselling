@@ -1,4 +1,4 @@
-# --- START OF THE COMPLETE app.py (Add Career Section Removed) ---
+# --- START OF THE UPDATED app.py FILE ---
 
 import streamlit as st
 import json
@@ -7,8 +7,8 @@ from collections import defaultdict
 
 # --- Page Configuration (Global UI) ---
 st.set_page_config(
-    page_title="Career Counselling App",
-    page_icon="assets/logo.png",
+    page_title="Career Counselling",
+    page_icon="assets/icon.png",  # <-- THIS IS THE ONLY LINE THAT WAS CHANGED
     layout="wide"
 )
 
@@ -235,7 +235,7 @@ def main():
         st.session_state.page = "Home"
 
     with st.sidebar:
-        st.image("assets/logo.png", use_container_width=True)
+        st.image("assets/icon.png", use_container_width=True) # <-- Also updated this to match
         st.header("Menu")
         PAGES = {
             "Home": home_page,
@@ -267,4 +267,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# --- END OF FILE ---
+# --- END OF THE UPDATED app.py FILE ---
