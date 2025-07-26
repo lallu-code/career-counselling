@@ -8,7 +8,7 @@ from collections import defaultdict
 # --- Page Configuration (Global UI) ---
 st.set_page_config(
     page_title="Career Counselling",
-    page_icon="assets/icon.png",  # <-- THIS IS THE ONLY LINE THAT WAS CHANGED
+    page_icon="assets/icon.png",
     layout="wide"
 )
 
@@ -235,7 +235,7 @@ def main():
         st.session_state.page = "Home"
 
     with st.sidebar:
-        st.image("assets/icon.png", use_container_width=True) # <-- Also updated this to match
+        # st.image("assets/icon.png", use_container_width=True) # <-- THIS IS THE ONLY LINE THAT WAS CHANGED (COMMENTED OUT)
         st.header("Menu")
         PAGES = {
             "Home": home_page,
