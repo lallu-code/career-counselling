@@ -2,7 +2,7 @@
 
 import streamlit as st
 import json
-import os
+import os  # <-- ADDED THIS LINE
 from collections import defaultdict
 
 # --- Page Configuration (Global UI) ---
@@ -235,7 +235,11 @@ def main():
         st.session_state.page = "Home"
 
     with st.sidebar:
-        # st.image("assets/icon.png", use_container_width=True) # <-- THIS IS THE ONLY LINE THAT WAS CHANGED (COMMENTED OUT)
+        # Construct the absolute path to the icon file
+        icon_path = os.path.abspath("assets/icon.png")
+        if os.path.exists(icon_path):
+            st.image(icon_path, use_container_width=True) # <-- THIS BLOCK IS THE PERMANENT FIX
+        
         st.header("Menu")
         PAGES = {
             "Home": home_page,
