@@ -1,14 +1,15 @@
-# --- START OF THE UPDATED app.py FILE ---
+# --- START OF THE FINAL, CORRECTED app.py FILE ---
 
 import streamlit as st
 import json
-import os  # <-- ADDED THIS LINE
+import os
 from collections import defaultdict
 
 # --- Page Configuration (Global UI) ---
 st.set_page_config(
     page_title="Career Counselling",
-    page_icon="assets/icon.png",
+    # USE THE DIRECT PUBLIC URL FOR THE ICON
+    page_icon="https://raw.githubusercontent.com/lallu-code/career-counselling/main/assets/icon.png",
     layout="wide"
 )
 
@@ -235,11 +236,8 @@ def main():
         st.session_state.page = "Home"
 
     with st.sidebar:
-        # Construct the absolute path to the icon file
-        icon_path = os.path.abspath("assets/icon.png")
-        if os.path.exists(icon_path):
-            st.image(icon_path, use_container_width=True) # <-- THIS BLOCK IS THE PERMANENT FIX
-        
+        # USE THE DIRECT PUBLIC URL FOR THE SIDEBAR IMAGE
+        st.image("https://raw.githubusercontent.com/lallu-code/career-counselling/main/assets/icon.png", use_container_width=True)
         st.header("Menu")
         PAGES = {
             "Home": home_page,
@@ -247,7 +245,6 @@ def main():
             "View Career Details": view_career_details,
             "Compare Careers": compare_careers_page,
             "🎓 College & Exam Explorer": exam_explorer_page,
-            # "Add a New Career" page has been removed from this list
         }
         for page_name in PAGES.keys():
             if st.button(page_name, use_container_width=True, type=("primary" if st.session_state.page == page_name else "secondary")):
@@ -271,4 +268,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# --- END OF THE UPDATED app.py FILE ---
+# --- END OF THE FINAL, CORRECTED app.py FILE ---
